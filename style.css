@@ -1,0 +1,864 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+  background: #fafafc;
+
+}
+
+
+header{
+    width: 100%;
+  background-color:rgb(0, 0, 0);
+  height: 42px;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+}
+nav{
+ height: 30px;
+ padding-left: 20%;
+ padding-top: 10px;
+ display: flex;
+ align-items: center;
+ padding-right: 225px;
+}
+
+.bg:hover{
+ color: #ffffff;
+ cursor: pointer;
+}
+
+#logo{
+  width:100%;
+  height: 18px;
+  opacity: 6.8;
+}
+
+.header-names:hover{
+  cursor: pointer;
+  color: #fafafd;
+  opacity: 12.30;
+
+}
+
+#icon{
+  padding-top: 15%;
+  height: 34%;
+  opacity: 6.0;
+}
+#icon:hover{
+  cursor: pointer;
+ opacity: 12.5;
+ color: #fafafd;
+}
+#cart{
+height: 54%;
+padding-top: 21%;
+opacity: 6.0;
+}
+#cart:hover{
+  cursor: pointer;
+  opacity: 12.5;
+  color: #fafafd;
+}
+
+
+.menu{
+  width: 100%;
+    padding-top: 1px;
+    flex-direction: row;
+    color: rgb(132, 112, 112);
+   list-style: none;
+   display: flex;
+   justify-content:space-around;
+  
+   font-size: 12px;
+    line-height: 3.66667;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #a6a6ae;;
+    padding: 0 8px;
+    height: 44px;
+    opacity: 12.8;
+    background: no-repeat;
+    white-space: nowrap;
+}
+  
+
+
+   .info{
+    background-color: #fbfbfd;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top:50px;
+   }
+  .discipsion{
+    color: #1d1d1f;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+  .serchicon{
+    height: 5%;
+    
+  }
+
+  .nextdiscipsion{
+    color: #1d1d1f;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }  
+   .shop {
+    color: #06c;
+    cursor: pointer;
+  }
+
+  
+  .shop:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+   .onesection{
+    width: 100%;
+    height: 650px;
+    align-items: center;
+    background-color:#fbfbfd;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .img{
+    width:100%;
+     height: 667px;
+     object-fit: contain;
+    
+  }
+ .innerhead{
+  width:45%;
+  margin-left: 55%;
+  padding-top: 75px;
+  position: absolute;
+ }
+ .headline{
+  font-weight: 600;
+  line-height: 1.25;
+  padding-left: 69px;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: -.005em;
+  margin-left: 8%;
+ }
+ .subhead{
+    font-weight: 400;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+ }
+ .linkone{
+  color: #06c;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  text-decoration: none;
+  font-size: 21px;
+  line-height: 3.23536;
+  font-weight: 400;
+  margin-left: 9%;
+ }
+
+ .linkone:hover{
+  text-decoration: underline;
+ }
+ 
+ .buy{
+  color: #06c;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  text-decoration: none;
+  font-size: 21px;
+  line-height: 3.23536;
+  font-weight: 400;
+  margin-left: 2%;
+ }
+
+ .buy:hover{
+  text-decoration: underline;
+ }
+
+ .secondsection{
+  width: 100%;
+  height: 550px;
+  display: flex;
+  position: relative;
+  margin-top: 8px;
+  cursor: pointer;
+  overflow: hidden;
+  
+ }
+ .secondeimg{
+  height: 585px;
+  width: 58%;
+  margin-left: 22%;
+  padding-top: 11%;
+ 
+ }
+ .secondinnerhead{
+  height: 70px;
+  width: 100%;
+  position: absolute;
+ }
+ .secondheadline{
+  color: black;
+  padding-left: 632px;
+  margin-bottom: 5%;
+  font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+ }
+ .secondtext{
+  font-size: 28px;
+  padding-left: 665px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: -60px;
+
+ }
+  
+ .seconlink{
+  color: #06c;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  text-decoration: none;
+  font-size: 21px;
+  line-height: 2.23536;
+  font-weight: 400;
+  padding-left: 652px;
+
+ }
+.seconlink:hover{
+  text-decoration:underline;
+}
+
+ .secondbuy{
+  color: #06c;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  text-decoration: none;
+  font-size: 21px;
+  line-height: 2.23536;
+  font-weight: 400;
+  padding-left: 48px;
+ }
+ .secondbuy:hover{
+  text-decoration: underline;
+ }
+ .thedsection{
+  width:100%;
+  margin-top: 2%;
+  background: #000;
+ cursor: pointer;
+ }
+ .thedsectionimg{
+  object-fit: contain;
+  width: 100%;
+  height: 350px;
+  background: #000;
+ }
+ .thedheader{
+ width: 100%;
+ padding-top: 10%;
+ background-color: #000000;
+ color:#f5f5f7;
+ text-align: center;
+ font-size: 40px;
+ line-height: 1.07143;
+ font-weight: 600;
+ letter-spacing: -.005em;   
+ font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+ }
+  .thedsubhead{
+  background-color: #000000;
+  color: #f5f5f7;
+  text-align: center;
+  font-size: 28px;
+  line-height: 1.10722;
+  font-weight: 400;  
+  letter-spacing: .004em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  margin-top: 6px;
+  }
+  .thedlink{
+    background: #000;
+    color: #06c;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  text-decoration: none;
+  font-size: 21px;
+  line-height: 2.23536;
+  font-weight: 400;
+  padding-left: -48px;
+  }
+  .theddbuy{
+    background: #000;
+    color: #06c;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  text-decoration: none;
+  font-size: 21px;
+  line-height: 2.23536;
+  font-weight: 400;
+  padding-left: 38px;
+  }
+  .theddbuy:hover{
+    text-decoration: underline;
+  }
+  .thedlink:hover{
+    text-decoration: underline;
+  }
+  
+  .gridbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+
+  .left-box{
+    display:flex;
+    background-color: #000;
+    justify-content: center;
+    width:100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .left-heading{
+    flex-direction: column;
+   position: absolute;
+  padding-top: 5%;
+  display: flex;
+  align-items: center;
+  }
+
+.m2-icon{
+   position: absolute;
+  padding-top: 10%;
+  display: flex;
+  align-items: center;
+}
+
+  .headline-left{
+    color: #f5f5f7;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+  .sub-headline-right{
+    color: #f5f5f7;
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+
+  .link{
+    position: absolute;
+  padding-top: 15%;
+  display: flex;
+  align-items: center;
+  padding-right: 38px;
+  }
+
+
+  .left-learn-more{
+    color: #06c;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  text-decoration: none;
+  font-size: 21px;
+  line-height: 2.23536;
+  font-weight: 400;
+  padding-left: 38px;
+  }
+  .left-learn-more:hover{
+    text-decoration: underline;
+  }
+  .left-buy{
+    color: #06c;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-decoration: none;
+    font-size: 21px;
+    line-height: 2.23536;
+    font-weight: 400;
+    padding-left: 38px;
+  } 
+  .left-buy:hover{
+    text-decoration: underline;
+  }
+ /* end */
+
+
+
+
+
+
+  .right-box{
+    display: flex;
+    background-color: #000;
+    justify-content: center;
+    width:100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .tv-icon{
+    flex-direction: column;
+    position: absolute;
+   padding-top: 5%;
+   display: flex;
+   align-items: center;
+  }
+
+  .right-subhead{
+    color: #000007;
+    font-size: 23px;
+    line-height: 1.1;
+    font-weight: 500;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+
+  
+  .link-right{
+    padding-top: 16%;
+    color: #06c;
+    position: absolute;
+  } 
+  
+  .right-learn-more{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  text-decoration: none;
+  font-size: 21px;
+  line-height: 2.23536;
+  font-weight: 400;
+  }
+
+  .right-learn-more:hover{
+    text-decoration: underline;
+  }
+
+  .right-buy{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-decoration: none;
+    font-size: 21px;
+    line-height: 2.23536;
+    font-weight: 400;
+    padding-left: 38px;
+  }
+
+  .right-buy:hover{
+    text-decoration: underline;
+  }
+
+
+ /* end */
+
+
+
+ .second-left-box{
+  display: flex;
+  background-color: #000;
+  justify-content: center;
+  width:100%;
+  overflow: hidden;
+  position: relative;
+ }
+
+ .watch-icon{
+  position: absolute;
+  padding-top: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ }
+ .second-left-subhead{
+  color: #000007;
+  font-size: 23px;
+  line-height: 1.1;
+  font-weight: 200;
+  letter-spacing: 0em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+
+ .second-link{
+  padding-top: 20%;
+  color: #06c;
+  position: absolute;
+  display: flex;
+  
+ }
+
+ .second-left-learn-more{
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  text-decoration: none;
+  font-size: 21px;
+  line-height: 2.23536;
+  font-weight: 400;
+  padding-right: 19px;
+ }
+ .second-left-learn-more:hover{
+  text-decoration: underline;
+ }
+  
+ .second-left-buy{
+  padding-left: 0%;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  text-decoration: none;
+  font-size: 21px;
+  line-height: 2.23536;
+  font-weight: 400;
+ }
+.second-left-buy:hover{
+  text-decoration: underline;
+ }
+
+
+
+/* end */
+
+
+
+
+
+
+ .second-right-box{
+  display: flex;
+  background-color: #000;
+  justify-content: center;
+  width:100%;
+  overflow: hidden;
+  position: relative;
+ }
+.second-right-watch-icon{
+  position: absolute;
+  padding-top: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ }
+  .second-righ-subhead{
+ color: #fafafd;
+ font-size: 23px;
+ line-height: 1.1;
+ font-weight: 200;
+ letter-spacing: 0em;
+ font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+
+
+   /* end */
+
+
+
+
+
+ .thed-left-box{
+  display: flex;
+  background-color: #000;
+  justify-content: center;
+  width:100%;
+  overflow: hidden;
+  position: relative;
+ }
+ 
+
+ .thed-left-watch-icon{
+  position: absolute;
+  padding-top: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ }
+  
+.thed-left-headline{
+  color: #fafafd;
+  position: absolute;
+  font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 34px;
+}
+.thed-left-subhed{
+  padding-top: 7%;
+  color: #fafafd;
+  position: absolute;
+  font-size: 21px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 34px;
+}
+
+
+.thed-link{
+  padding-top: 16%;
+  color: #06c;
+  position: absolute;
+} 
+
+.thed-left-learn-more{
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+text-decoration: none;
+font-size: 21px;
+line-height: 2.23536;
+font-weight: 400;
+}
+
+.thed-left-learn-more:hover{
+  text-decoration: underline;
+}
+.thrd-left-buy{
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+text-decoration: none;
+font-size: 21px;
+line-height: 2.23536;
+font-weight: 400; 
+padding-left: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+ .thed-right-box{
+  background-color: rgb(244, 243, 243);
+  width:100%;
+  overflow: hidden;
+  position: relative;
+ }
+
+ .img-main{
+  padding-top: 25%;
+  padding-left:25% ;
+}
+.thed-right-learn-more{
+  padding-left:35px;
+  color: #06c;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+text-decoration: none;
+font-size: 18px;
+line-height: 2.23536;
+font-weight: 400;
+}
+
+.thed-right-learn-more:hover{
+  text-decoration: underline;
+}
+
+  
+.learn-mor-class{
+  padding-left: 25%
+}
+
+
+ footer{
+
+  height: 660px;
+  background-color: #f5f5f7;;
+  display: flex;
+  justify-content:space-evenly;
+ }
+ .footer-content{
+  justify-content:space-evenly;
+  padding-top: 2%;
+  padding-left: 21%;
+  padding-right: 21%;
+  border-bottom: #d2d2d7;
+  color: #6e6e73;
+  font-size: 12px; 
+  line-height: 1.33337;
+  font-weight: 400;
+  letter-spacing: -.01em;
+
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+  
+ }
+ .footer-link{
+  color: #424245;
+ }
+ .second-footer{
+  padding-top: 4%;
+}
+ .bodreline{
+  margin-top: 3%
+ }
+
+ .footer-main-items{
+  display: flex;
+ flex-direction: row;
+ font-size: 12px;
+ line-height: 1.33337;  
+ font-weight: 400;
+ letter-spacing: -.01em;
+ font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+ flex-wrap: nowrap;
+ padding-top: 1%;
+ }
+
+ .list-shop-and-leran{ 
+  
+ display: flex;
+ flex-direction: column;
+ padding-left: 9%; 
+ font-size: 1em;
+ font-family: inherit;
+ font-weight: inherit;
+ line-height: inherit;
+ text-align: inherit
+}
+
+.shop{
+  text-decoration: none;
+  color: #6e6e73;
+  padding-top: 3%;
+  font-weight: 100;
+}
+.list-services{
+  display: flex;
+  flex-direction: column;
+  padding-left: 9%; 
+  font-size: 1em;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  text-align: inherit
+}
+
+.Services{
+  text-decoration: none;
+  color: #6e6e73;
+  padding-top: 6%;
+  font-weight: 100;
+}
+
+.account{
+  padding-top: 3%;
+}
+.accont-lest{
+  text-decoration: none;
+  color: #6e6e73;
+  padding-top: 8%;
+  font-weight: 100
+}
+.list-AppleStore{
+padding-left: 9%;
+display: flex;
+  flex-direction: column;
+  padding-left: 9%; 
+  font-size: 1em;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  text-align: inherit
+}
+.Store{
+  text-decoration: none;
+  color: #6e6e73;
+  padding-top: 6%;
+  font-weight: 100
+}
+.list-ForBusiness{
+  padding-left: 10%;
+}
+.Business{
+  text-decoration: none;
+  color: #6e6e73;
+  padding-top: 6%;
+  padding-bottom: 1%;
+  font-weight: 100
+
+}
+.list-Applevaluse{
+  padding-left: 9%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 9%; 
+  font-size: 1em;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  padding-left: 10%;
+}
+ 
+
+#find-more{
+  padding-top: 9%;
+  font-size: 12px;
+  line-height: 1.33337;  
+  font-weight: 400;
+  letter-spacing: -.01em;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+
+
+.find{
+  text-decoration: none;
+}
+find:hover{
+  text-decoration: underline;
+}
+.copyright{
+  text-decoration: none;
+display: flex;
+flex-direction: row;
+padding-top: 7%;
+font-size: 12px;
+line-height: 1.33337;  
+font-weight: 400;
+letter-spacing: -.01em;
+font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+color: #6e6e73;
+padding-left: 21%;
+}
+
+.privacy{
+  display: flex;
+flex-direction: row;
+font-size: 12px;
+justify-content:center;
+padding-left: 3%;
+list-style-type: none;
+}
+.india{
+  padding-left: 23%;
+font-size: 12px;
+line-height: 1.33337;  
+font-weight: 400;
+letter-spacing: -.01em;
+font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+color: #6e6e73;
+}
